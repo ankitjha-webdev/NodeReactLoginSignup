@@ -1,0 +1,40 @@
+{
+  "name": "nodereactloginsignup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd frontend && npm install && npm run build",
+    "nodemon": "nodemon server/index.js"
+  },
+  "engines": {
+    "node": "16.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitjha-webdev/NodeReactLoginSignup.git"
+  },
+  "keywords": [],
+  "author": " Ankit Jha < ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitjha-webdev/NodeReactLoginSignup/issues"
+  },
+  "homepage": "https://github.com/ankitjha-webdev/NodeReactLoginSignup#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "imdb-api": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.3.6",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
