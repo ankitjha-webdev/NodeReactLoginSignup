@@ -1,6 +1,6 @@
 # Node and react login and signup with product 
 
-ode and react login and signup with product system, where user can login and add their product update and delete those products
+Node and react login and signup with product system, where user can login and add their product update and delete those products
 
 ---
 ## Requirements
